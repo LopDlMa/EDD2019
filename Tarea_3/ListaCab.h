@@ -10,7 +10,7 @@ class ListaCab
         NodeCab *raiz;
 
         ListaCab();
-        void insertar_C();
+        void insertar_C(std::string dia, std::string actividad);
         void recorrer();
 
 

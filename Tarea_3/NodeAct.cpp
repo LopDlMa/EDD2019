@@ -1,8 +1,8 @@
 #include "NodeAct.h"
 
-NodeAct::NodeAct(std::string dia, std::string actividad)
+NodeAct::NodeAct(std::string actividad)
 {
-    this->dia = dia;
+
     this->actividad = actividad;
     this->siguiente = NULL;
     this->anterior = NULL;

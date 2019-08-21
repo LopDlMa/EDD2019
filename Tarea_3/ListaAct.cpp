@@ -1,4 +1,5 @@
 #include "ListaAct.h"
+
 #include <string>
 
 ListaAct::ListaAct()
@@ -7,8 +8,8 @@ ListaAct::ListaAct()
     cola = NULL;
 }
 
-void ListaAct::insertar(std::string dia, std::actividad){
-    NodeAct *newNode = new NodeAct(dia,actividad);
+void ListaAct::insertar(std::string actividad){
+    NodeAct *newNode = new NodeAct(actividad);
 
     if(raiz == NULL){
         raiz = newNode;
@@ -28,7 +29,7 @@ void ListaAct::recorrer(){
         NodeAct *temp = raiz;
         std::cout << "Viendo actualmente"<<std::endl;
         do{
-            std::cout<< "DIA: "<< temp->dia << " ACTIVIDAD: "<<temp->actividad<<std::endl;
+            std::cout<<" ACTIVIDAD: "<<temp->actividad<<std::endl;
             temp = temp->siguiente;
         }while(temp != NULL);
 
