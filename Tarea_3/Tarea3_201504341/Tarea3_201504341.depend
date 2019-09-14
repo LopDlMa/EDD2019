@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1568432688 source:c:\users\pc\desktop\tarea3_201504341\main.cpp
+	<iostream>
+	"cabecera_dias.h"
+	"listaAct.h"
+
+1568431356 source:c:\users\pc\desktop\tarea3_201504341\src\nodo_dia.cpp
+	"Nodo_Dia.h"
+	<string>
+
+1568431347 c:\users\pc\desktop\tarea3_201504341\include\nodo_dia.h
+	<string>
+	"listaAct.h"
+
+1568432913 source:c:\users\pc\desktop\tarea3_201504341\src\cabecera_dias.cpp
+	"cabecera_dias.h"
+	<string>
+	<iostream>
+
+1568432922 c:\users\pc\desktop\tarea3_201504341\include\cabecera_dias.h
+	"Nodo_Dia.h"
+	<string>
+
+1568422449 source:c:\users\pc\desktop\tarea3_201504341\src\nodoact.cpp
+	"nodoAct.h"
+
+1568422402 c:\users\pc\desktop\tarea3_201504341\include\nodoact.h
+	<string>
+
+1568429601 source:c:\users\pc\desktop\tarea3_201504341\src\listaact.cpp
+	"listaAct.h"
+	"nodoAct.h"
+	<string>
+	<iostream>
+
+1568428110 c:\users\pc\desktop\tarea3_201504341\include\listaact.h
+	<string>
+	<iostream>
+	"nodoAct.h"
+
